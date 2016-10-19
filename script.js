@@ -1,6 +1,6 @@
 //Community "Answered" and "Closed" checkboxes
 $(document).ready(function() {
-  var subdomain = "SUBDOMAIN";
+  var subdomain = "SUBDOMAIN"; //replace SUBDOMAIN for account subdomain. For example: var subdomain = "support";
   if(window.location.href.indexOf("posts") > 0) {
     var communityModeratorTool = $(".community_moderator_tool");
     var officialCommentLabel = $("#community_comment_official");
@@ -21,7 +21,7 @@ $(document).ready(function() {
           type:"PUT", 
           url: communityJSON,
           contentType: "application/json",
-          data: '{"post": {"status": "answered"}}',
+          data: '{"post": {"status": "answered"}}'
         })
       }
       if (checkedClosed == true) {
@@ -29,7 +29,7 @@ $(document).ready(function() {
           type:"PUT", 
           url: communityJSON,
           contentType: "application/json",
-          data: '{"post": {"closed": "true"}}',
+          data: '{"post": {"closed": "true"}}'
         })
       }
     });
