@@ -1,3 +1,5 @@
+⚠️ Use of this software is subject to important terms and conditions as set forth in the [License](https://github.com/aculligan/Zendesk_Help_Center_Community_Moderator_Controls/blob/master/License) file ⚠️
+
 # Zendesk Help Center Community Moderator Controls
 
 Add controls to Zendesk Community comments for Moderators to check posts as "Answered" or "Closed for comments" while submitting a comment.
