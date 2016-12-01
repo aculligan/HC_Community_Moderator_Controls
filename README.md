@@ -19,3 +19,5 @@ Remember to change SUBDOMAIN to your actual subdomain. For example ```const subd
 Save and publish the changes, and that's it. Here is what it will look like:
 
 ![image](https://support.zendesk.com/hc/user_images/9jZXkE-bmpUvggJaDLlhgg.gif)
+
+Please submit bug reports [here](https://github.com/aculligan/Zendesk_Help_Center_Community_Moderator_Controls/issues). Pull requests are welcome.
