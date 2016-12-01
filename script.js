@@ -8,7 +8,10 @@ $(document).ready(function() {
     const $officialCommentLabel = $('#community_comment_official');
     if ($officialCommentLabel.length > 0) {
       $commentFormControls.prepend(
-        $('<input class="community_moderator_tool" type="checkbox" name="community_comment[answered]" id="community_comment_answered"><label class="community_moderator_tool" for="community_comment_answered" id="community_comment_answered_label" style="margin-right: 15px;">Answered</label><input class="community_moderator_tool" type="checkbox" name="community_comment[closed]" id="community_comment_closed"><label class="community_moderator_tool" for="community_comment_closed" id="community_comment_closed_label" style="margin-right: 15px;">Closed for comments</label>')
+        $(`<input class="community_moderator_tool" type="checkbox" name="community_comment[answered]" id="community_comment_answered">
+          <label class="community_moderator_tool" for="community_comment_answered" id="community_comment_answered_label" style="margin-right: 15px;">Answered</label>
+          <input class="community_moderator_tool" type="checkbox" name="community_comment[closed]" id="community_comment_closed">
+          <label class="community_moderator_tool" for="community_comment_closed" id="community_comment_closed_label" style="margin-right: 15px;">Closed for comments</label>`)
       );
     }
     const $commentSubmitButton = $('input[type=submit]');
