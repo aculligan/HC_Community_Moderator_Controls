@@ -1,5 +1,5 @@
 //Community "Answered" and "Closed" checkboxes
-$(document).ready(function() {
+$(document).ready(function () {
   // Replace SUBDOMAIN for account subdomain. For example: const subdomain = 'support';
   const subdomain = 'SUBDOMAIN';
   const windowURL = window.location.href;
