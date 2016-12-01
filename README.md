@@ -1,4 +1,4 @@
-⚠️ Use of this software is subject to important terms and conditions as set forth in the [License](https://github.com/aculligan/Zendesk_Help_Center_Community_Moderator_Controls/blob/master/License) file ⚠️
+⚠️ Use of this software is subject to important terms and conditions as set forth in the [License](https://aculligan.github.io/license) file ⚠️
 
 # Zendesk Help Center Community Moderator Controls
 
